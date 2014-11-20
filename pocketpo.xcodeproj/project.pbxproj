@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5B11981A1DCA0C00CB3B15 /* SquatsPoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B11971A1DCA0C00CB3B15 /* SquatsPoViewController.swift */; };
+		9B5B119A1A1DCA7200CB3B15 /* CabinPoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B11991A1DCA7200CB3B15 /* CabinPoViewController.swift */; };
+		9B5B119C1A1DCA7F00CB3B15 /* CatPoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B119B1A1DCA7F00CB3B15 /* CatPoViewController.swift */; };
 		9BAFB5A91A1D8A0D004AC0D5 /* pocketpo_ERD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFB5A71A1D8A0D004AC0D5 /* pocketpo_ERD.xcdatamodeld */; };
 		C722AA981A1D5DAF00B315AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AA971A1D5DAF00B315AD /* AppDelegate.swift */; };
 		C722AA9A1A1D5DAF00B315AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AA991A1D5DAF00B315AD /* ViewController.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B5B11971A1DCA0C00CB3B15 /* SquatsPoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquatsPoViewController.swift; path = Views/SquatsPoViewController.swift; sourceTree = "<group>"; };
+		9B5B11991A1DCA7200CB3B15 /* CabinPoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CabinPoViewController.swift; path = Views/CabinPoViewController.swift; sourceTree = "<group>"; };
+		9B5B119B1A1DCA7F00CB3B15 /* CatPoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatPoViewController.swift; path = Views/CatPoViewController.swift; sourceTree = "<group>"; };
 		9BAFB5A81A1D8A0D004AC0D5 /* pocketpo_ERD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pocketpo_ERD.xcdatamodel; sourceTree = "<group>"; };
 		C722AA921A1D5DAF00B315AD /* pocketpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C722AA961A1D5DAF00B315AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +94,9 @@
 				C722AA971A1D5DAF00B315AD /* AppDelegate.swift */,
 				C722AA991A1D5DAF00B315AD /* ViewController.swift */,
 				C722AA9B1A1D5DAF00B315AD /* Main.storyboard */,
+				9B5B11991A1DCA7200CB3B15 /* CabinPoViewController.swift */,
+				9B5B119B1A1DCA7F00CB3B15 /* CatPoViewController.swift */,
+				9B5B11971A1DCA0C00CB3B15 /* SquatsPoViewController.swift */,
 				C722AA9E1A1D5DAF00B315AD /* Images.xcassets */,
 				C722AAA01A1D5DAF00B315AD /* LaunchScreen.xib */,
 				C722AA951A1D5DAF00B315AD /* Supporting Files */,
@@ -225,7 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C722AABA1A1D697A00B315AD /* Item.swift in Sources */,
+				9B5B119A1A1DCA7200CB3B15 /* CabinPoViewController.swift in Sources */,
 				C722AABC1A1D7CBA00B315AD /* Category.swift in Sources */,
+				9B5B119C1A1DCA7F00CB3B15 /* CatPoViewController.swift in Sources */,
+				9B5B11981A1DCA0C00CB3B15 /* SquatsPoViewController.swift in Sources */,
 				9BAFB5A91A1D8A0D004AC0D5 /* pocketpo_ERD.xcdatamodeld in Sources */,
 				C722AA9A1A1D5DAF00B315AD /* ViewController.swift in Sources */,
 				C722AA981A1D5DAF00B315AD /* AppDelegate.swift in Sources */,

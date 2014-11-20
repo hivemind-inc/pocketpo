@@ -57,8 +57,7 @@ class ViewController: UIViewController {
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
 
                     for category in categoryArray {
-                        println(category["id"])
-                        println(category["name"])
+                        var category = Category(categoryDictionary: category as NSDictionary)
                     }
 
                 })

@@ -1,5 +1,5 @@
 //
-//  Categories.swift
+//  Category.swift
 //  pocketpo
 //
 //  Created by OBFK on 11/19/14.
@@ -9,12 +9,12 @@
 import Foundation
 
 struct Category {
-    
+
     var id: Int
     var name: String
-    
-    init() {
-        id = 0
-        name = "default"
+
+    init(categoryDictionary: NSDictionary) {
+        id = categoryDictionary["id"] as Int
+        name = categoryDictionary["name"] as String
     }
 }

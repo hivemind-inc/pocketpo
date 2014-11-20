@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         getCategoryData()
-        getItemData()
+        // getItemData()
 
     }
 
@@ -37,25 +37,29 @@ class ViewController: UIViewController {
             response: NSURLResponse!,
             error: NSError!) -> Void in
 
-            println(response)
-        })
+            if (error == nil) {
 
-        downloadTask.resume()
+                // get stored temp data object
+                let dataObject = NSData(contentsOfURL: location)
 
-    }
+                // parse data object into NSArray
+                let categoryArray: NSArray = NSJSONSerialization.JSONObjectWithData(
+                    dataObject!,
+                    options: nil,
+                    error: nil) as NSArray
 
-    func getItemData() -> Void {
+                // dispatch UI updates to GCD
+                dispatch_async(dispatch_get_main_queue(), { () -> Void in
 
-        let itemURL = NSURL(string: "items?tag=cats", relativeToURL: baseURL)
+                    for category in categoryArray {
+                        println(category["id"])
+                        println(category["name"])
+                    }
 
-        let sharedSession = NSURLSession.sharedSession()
+                })
 
-        let downloadTask: NSURLSessionDownloadTask = sharedSession.downloadTaskWithURL(itemURL!, completionHandler: { (
-            location: NSURL!,
-            response: NSURLResponse!,
-            error: NSError!) -> Void in
+            }
 
-            println(response)
         })
 
         downloadTask.resume()

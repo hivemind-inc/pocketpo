@@ -13,8 +13,9 @@
 		C722AA9F1A1D5DAF00B315AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C722AA9E1A1D5DAF00B315AD /* Images.xcassets */; };
 		C722AAA21A1D5DAF00B315AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C722AAA01A1D5DAF00B315AD /* LaunchScreen.xib */; };
 		C722AAAE1A1D5DAF00B315AD /* pocketpoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AAAD1A1D5DAF00B315AD /* pocketpoTests.swift */; };
-		C722AAB81A1D68A000B315AD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AAB71A1D68A000B315AD /* Category.swift */; };
+		C722AAB81A1D68A000B315AD /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AAB71A1D68A000B315AD /* Categories.swift */; };
 		C722AABA1A1D697A00B315AD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AAB91A1D697A00B315AD /* Item.swift */; };
+		C722AABC1A1D7CBA00B315AD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722AABB1A1D7CBA00B315AD /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,9 @@
 		C722AAA71A1D5DAF00B315AD /* pocketpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C722AAAC1A1D5DAF00B315AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C722AAAD1A1D5DAF00B315AD /* pocketpoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketpoTests.swift; sourceTree = "<group>"; };
-		C722AAB71A1D68A000B315AD /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C722AAB71A1D68A000B315AD /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		C722AAB91A1D697A00B315AD /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C722AABB1A1D7CBA00B315AD /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,8 @@
 				C722AA9E1A1D5DAF00B315AD /* Images.xcassets */,
 				C722AAA01A1D5DAF00B315AD /* LaunchScreen.xib */,
 				C722AA951A1D5DAF00B315AD /* Supporting Files */,
-				C722AAB71A1D68A000B315AD /* Category.swift */,
+				C722AAB71A1D68A000B315AD /* Categories.swift */,
+				C722AABB1A1D7CBA00B315AD /* Category.swift */,
 				C722AAB91A1D697A00B315AD /* Item.swift */,
 			);
 			path = pocketpo;
@@ -219,9 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C722AABA1A1D697A00B315AD /* Item.swift in Sources */,
+				C722AABC1A1D7CBA00B315AD /* Category.swift in Sources */,
 				C722AA9A1A1D5DAF00B315AD /* ViewController.swift in Sources */,
 				C722AA981A1D5DAF00B315AD /* AppDelegate.swift in Sources */,
-				C722AAB81A1D68A000B315AD /* Category.swift in Sources */,
+				C722AAB81A1D68A000B315AD /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

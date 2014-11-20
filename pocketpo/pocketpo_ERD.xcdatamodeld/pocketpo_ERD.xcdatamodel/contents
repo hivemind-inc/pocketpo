@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" syncable="YES">
+        <attribute name="category_ID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Item" syncable="YES">
+        <attribute name="item_ID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemLikes" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemURL" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category_ID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" syncable="YES"/>
+    </entity>
+    <entity name="Tag_Item" syncable="YES">
+        <relationship name="item_ID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" syncable="YES"/>
+        <relationship name="tag_ID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tags" syncable="YES"/>
+    </entity>
+    <entity name="Tags" syncable="YES">
+        <attribute name="tag_ID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-479" positionY="-244" width="128" height="73"/>
+        <element name="Item" positionX="-101" positionY="54" width="128" height="118"/>
+        <element name="Tags" positionX="-342" positionY="-9" width="128" height="73"/>
+        <element name="Tag_Item" positionX="-245" positionY="-225" width="128" height="73"/>
+    </elements>
+</model>

@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var squatsPoButton: UIButton!
+	@IBOutlet weak var cabinPoButton: UIButton!
+	@IBOutlet weak var catPoButton: UIButton!
+	
+	
     private let baseURL = NSURL(string: "http://pocketpo.herokuapp.com/api/v1/")
 
     override func viewDidLoad() {

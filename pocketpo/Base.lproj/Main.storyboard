@@ -64,6 +64,11 @@
                             <constraint firstAttribute="centerX" secondItem="rmh-db-az2" secondAttribute="centerX" constant="-0.5" id="qVi-20-YYr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cabinPoButton" destination="rmh-db-az2" id="W6B-HN-T7I"/>
+                        <outlet property="catPoButton" destination="lkz-iJ-S37" id="gJk-09-7xH"/>
+                        <outlet property="squatsPoButton" destination="k2K-Le-JiK" id="rrB-Ja-Hpf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

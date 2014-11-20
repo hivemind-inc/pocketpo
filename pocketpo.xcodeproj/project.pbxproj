@@ -405,6 +405,7 @@
 				C722AAB31A1D5DAF00B315AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C722AAB41A1D5DAF00B315AD /* Build configuration list for PBXNativeTarget "pocketpoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				C722AAB61A1D5DAF00B315AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
